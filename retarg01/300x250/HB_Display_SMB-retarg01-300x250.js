@@ -500,7 +500,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_1 = new lib.CTA();
-	this.instance_1.setTransform(120.05,224.4,0.88,0.88,0,0,0,52.1,13);
+	this.instance_1.setTransform(110.05,224.4,0.88,0.88,0,0,0,52.1,13);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(48));
 
