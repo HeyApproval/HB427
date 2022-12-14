@@ -183,14 +183,17 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(72));
 
-	// Layer_1
+	// border
 	this.shape_11 = new cjs.Shape();
-	this.shape_11.graphics.f().s("#FFFFFF").ss(1,1,1).p("AoRiVIQjAAIAAErIwjAAg");
+	this.shape_11.graphics.f().s("#FBA401").ss(1,1,1).p("AoRiVIQjAAIAAErIwjAAg");
 
+	this.timeline.addTween(cjs.Tween.get(this.shape_11).wait(72));
+
+	// bkgd
 	this.shape_12 = new cjs.Shape();
 	this.shape_12.graphics.f("#FFA400").s().p("AoRCWIAAkrIQjAAIAAErg");
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_12},{t:this.shape_11}]}).wait(72));
+	this.timeline.addTween(cjs.Tween.get(this.shape_12).wait(72));
 
 	this._renderFirstFrame();
 
