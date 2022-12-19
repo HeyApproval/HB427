@@ -845,36 +845,36 @@ if (reversed == null) { reversed = false; }
 
 	// Logo-HB-vert
 	this.instance_2 = new lib.Logovert();
-	this.instance_2.setTransform(-42.1,30.25,0.5263,0.5263,0,0,0,-0.1,0.1);
+	this.instance_2.setTransform(-42.1,32.25,0.5263,0.5263,0,0,0,-0.1,0.1);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(63).to({_off:false},0).to({regX:0.1,x:53.95},10,cjs.Ease.quadOut).wait(6));
 
 	// LINE
 	this.instance_3 = new lib.Tween1("synched",0);
-	this.instance_3.setTransform(-42.1,61.85,0.5263,0.5263,0,0,0,-0.1,0.2);
+	this.instance_3.setTransform(-42.1,62.85,0.5263,0.5263,0,0,0,-0.1,0.2);
 	this.instance_3._off = true;
 
 	this.instance_4 = new lib.Tween2("synched",0);
-	this.instance_4.setTransform(53.95,61.85,0.5263,0.5263,0,0,0,0.1,0.2);
+	this.instance_4.setTransform(53.95,62.85,0.5263,0.5263,0,0,0,0.1,0.2);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},63).to({state:[{t:this.instance_4}]},10).wait(6));
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(63).to({_off:false},0).to({_off:true,regX:0.1,x:53.95},10,cjs.Ease.quadOut).wait(6));
 
 	// Logo-partner
 	this.instance_5 = new lib.Logopartner();
-	this.instance_5.setTransform(-42.1,77.85,0.3578,0.3578,0,0,0,-0.1,0.3);
+	this.instance_5.setTransform(-42.1,75.85,0.3578,0.3578,0,0,0,-0.1,0.3);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(63).to({_off:false},0).to({regX:0.1,x:53.95},10,cjs.Ease.quadOut).wait(6));
 
 	// CTA
 	this.instance_6 = new lib.CTA();
-	this.instance_6.setTransform(421.75,43.7,0.6864,0.6864,0,0,0,52.1,13.1);
+	this.instance_6.setTransform(393.65,43.6,0.755,0.755,0,0,0,52.1,13.1);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(49).to({_off:false},0).to({x:695,alpha:1},10,cjs.Ease.quadOut).wait(20));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(49).to({_off:false},0).to({x:694.25,alpha:1},10,cjs.Ease.quadOut).wait(20));
 
 	// HEAD1
 	this.instance_7 = new lib.HEAD1();
@@ -900,7 +900,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(105,7.6,623.5,99.10000000000001);
+p.nominalBounds = new cjs.Rectangle(105,-0.5,623.5,113.4);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -910,7 +910,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HB_Display_SMB_knowhow_728x90_atlas_P_1.png?1671471708263", id:"HB_Display_SMB_knowhow_728x90_atlas_P_1"}
+		{src:"images/HB_Display_SMB_knowhow_728x90_atlas_P_1.png?1671481550037", id:"HB_Display_SMB_knowhow_728x90_atlas_P_1"}
 	],
 	preloads: []
 };
