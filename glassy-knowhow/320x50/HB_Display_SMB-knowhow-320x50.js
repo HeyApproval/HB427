@@ -746,7 +746,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HB_Display_SMB_knowhow_320x50_atlas_P_1.png?1671482806036", id:"HB_Display_SMB_knowhow_320x50_atlas_P_1"}
+		{src:"images/HB_Display_SMB_knowhow_320x50_atlas_P_1.png?1671484774424", id:"HB_Display_SMB_knowhow_320x50_atlas_P_1"}
 	],
 	preloads: []
 };
